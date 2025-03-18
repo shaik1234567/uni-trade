@@ -1,0 +1,90 @@
+
+.descrption-home{
+  
+    
+    padding-top: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    color: #333333;
+    
+}
+.nav li {
+    margin-right: 20px; /* Adjust the value as needed */
+  }
+  
+  .nav li:last-child {
+    margin-right: 0; /* Remove margin from the last item if desired */
+  }
+
+
+.login-background{
+    background-image: url('./assets/360.jpg');
+  background-size: cover; /* Makes the background image cover the entire screen */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  
+  height: 100vh; /* Ensures the body height is at least the viewport height */
+  margin: 0; 
+}
+
+.login-card{
+    background-color: rgba(255, 255, 255, 0.5); /* White color with 50% opacity */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border for visibility */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  padding: 16px; /* Space inside the card */
+  margin: 16px; /* Space outside the card */
+}
+
+.card-login{
+   border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 10px; /* Padding inside the card */
+    margin: 16px; /* Margin outside the card */
+    height: 450px;
+    width: 450px; /* Fixed height for the card */  
+    display: grid;
+    place-items: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    
+  }
+  .form-floating {
+    margin-bottom: 16px; /* Add spacing between form fields */
+  }
+  .register-card{
+    background-color: rgba(255, 255, 255, 0.5); /* White color with 50% opacity */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border for visibility */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  padding: 16px; /* Space inside the card */
+  margin: 16px; /* Space outside the card */
+}
+
+.card-register{
+   border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 10px; /* Padding inside the card */
+    margin: 16px; /* Margin outside the card */
+    height: 600px; /* Fixed height for the card */  
+    width: 500px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    
+  }
+.side-bar-mainpage{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.sidebar {
+  position: fixed;
+}
+
+

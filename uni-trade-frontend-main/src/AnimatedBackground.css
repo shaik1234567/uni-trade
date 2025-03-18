@@ -1,0 +1,15 @@
+/* AnimatedBackground.css */
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
+  
+  /* Optional: Ensure the background doesn't interfere with form layout */
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensure no scrollbars appear due to ball movement */
+    height: 100vh;
+  }
+  
